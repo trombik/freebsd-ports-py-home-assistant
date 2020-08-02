@@ -247,3 +247,12 @@
      "async_timeout==3.0.1",
      "attrs==19.3.0",
      "bcrypt==3.1.7",
+@@ -47,7 +47,7 @@ REQUIRES = [
+     "pip>=8.0.3",
+     "python-slugify==4.0.0",
+     "pytz>=2020.1",
+-    "pyyaml==5.3.1",
++    "pyyaml==5.2.0",
+     "requests==2.24.0",
+     "ruamel.yaml==0.15.100",
+     "voluptuous==0.11.7",
