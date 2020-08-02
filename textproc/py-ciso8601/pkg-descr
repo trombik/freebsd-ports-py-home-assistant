@@ -1,3 +1,4 @@
-[description of the port]
+ciso8601 converts ISO 8601 or RFC 3339 date time strings into Python datetime
+objects.
 
 WWW: https://pypi.python.org/pypi/ciso8601
