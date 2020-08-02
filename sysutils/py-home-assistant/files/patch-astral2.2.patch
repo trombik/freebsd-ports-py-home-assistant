@@ -15,11 +15,6 @@
          today = dt_util.as_local(dt_util.utcnow()).date()
 -        self._state = Astral().moon_phase(today)
 +        self._state = moon.phase(today)
-From 1cbaf123c0e38581d3df0be0ad1fb6b15ad8622b Mon Sep 17 00:00:00 2001
-From: Maxime Gauduin <alucryd@archlinux.org>
-Date: Thu, 27 Feb 2020 17:27:37 +0100
-Subject: [PATCH 1/2] bump astral to 2.1
-
 --- homeassistant/components/sun/__init__.py.orig	2020-08-01 13:37:05 UTC
 +++ homeassistant/components/sun/__init__.py
 @@ -92,6 +92,7 @@ class Sun(Entity):
@@ -91,13 +86,6 @@ Subject: [PATCH 1/2] bump astral to 2.1
          )
  
          _LOGGER.debug(
- homeassistant/components/sun/__init__.py | 19 ++++-----
- homeassistant/helpers/sun.py             | 50 +++++++++++++++---------
- homeassistant/package_constraints.txt    |  2 +-
- requirements_all.txt                     |  2 +-
- setup.py                                 |  2 +-
- 5 files changed, 44 insertions(+), 31 deletions(-)
-
 --- homeassistant/helpers/sun.py.orig	2020-08-01 13:37:05 UTC
 +++ homeassistant/helpers/sun.py
 @@ -1,6 +1,6 @@

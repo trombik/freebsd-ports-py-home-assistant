@@ -1,0 +1,13 @@
+--- requirements.txt.orig	2020-08-02 19:09:59 UTC
++++ requirements.txt
+@@ -15,8 +15,8 @@ cryptography==2.9.2
+ pip>=8.0.3
+ python-slugify==4.0.0
+ pytz>=2020.1
+-pyyaml==5.3.1
+-requests==2.24.0
++pyyaml==5.2
++requests==2.22.0
+ ruamel.yaml==0.15.100
+ voluptuous==0.11.7
+ voluptuous-serialize==2.4.0
