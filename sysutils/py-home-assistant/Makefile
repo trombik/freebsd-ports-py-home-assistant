@@ -41,6 +41,6 @@ NO_ARCH=	yes
 
 pre-configure:
 	${REINPLACE_CMD} 's/==/>=/g' \
-		${WRKSRC}/setup.py ${WRKSRC}/homeassistant/package_constraints.txt
+		${WRKSRC}/setup.py ${WRKSRC}/requirements.txt ${WRKSRC}/homeassistant/package_constraints.txt
 
 .include <bsd.port.mk>
