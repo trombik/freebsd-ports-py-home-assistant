@@ -31,6 +31,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}aiohttp>0:www/py-aiohttp@${PY_FLAVOR} \
 	${PYTHON_PKGNAMEPREFIX}python-slugify>0:textproc/py-python-slugify@${PY_FLAVOR} \
 	${PYTHON_PKGNAMEPREFIX}voluptuous>0:devel/py-voluptuous@${PY_FLAVOR} \
 	${PYTHON_PKGNAMEPREFIX}voluptuous-serialize>0:devel/py-voluptuous-serialize@${PY_FLAVOR} \
+	${PYTHON_PKGNAMEPREFIX}aiohttp_cors>0:www/py-aiohttp_cors@${PY_FLAVOR} \
 	${PYTHON_PKGNAMEPREFIX}yarl>0:www/py-yarl@${PY_FLAVOR}
 
 USES=		python:3.7+
