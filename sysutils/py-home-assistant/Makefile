@@ -27,6 +27,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}aiohttp>0:www/py-aiohttp@${PY_FLAVOR} \
 	${PYTHON_PKGNAMEPREFIX}pytz>0:devel/py-pytz@${PY_FLAVOR} \
 	${PYTHON_PKGNAMEPREFIX}requests>0:www/py-requests@${PY_FLAVOR} \
 	${PYTHON_PKGNAMEPREFIX}ruamel.yaml>0:textproc/py-ruamel.yaml@${PY_FLAVOR} \
+	${PYTHON_PKGNAMEPREFIX}ruamel.yaml.clib>0:textproc/py-ruamel.yaml.clib@${PY_FLAVOR} \
 	${PYTHON_PKGNAMEPREFIX}python-slugify>0:textproc/py-python-slugify@${PY_FLAVOR} \
 	${PYTHON_PKGNAMEPREFIX}voluptuous>0:devel/py-voluptuous@${PY_FLAVOR} \
 	${PYTHON_PKGNAMEPREFIX}voluptuous-serialize>0:devel/py-voluptuous-serialize@${PY_FLAVOR} \
