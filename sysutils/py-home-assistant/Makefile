@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	home-assistant
-DISTVERSION=	0.113.3
+DISTVERSION=	2021.6.6
 CATEGORIES=	sysutils python
 MASTER_SITES=	CHEESESHOP
 PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
@@ -26,8 +26,8 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}aiohttp>0:www/py-aiohttp@${PY_FLAVOR} \
 	${PYTHON_PKGNAMEPREFIX}pip>0:devel/py-pip@${PY_FLAVOR} \
 	${PYTHON_PKGNAMEPREFIX}pytz>0:devel/py-pytz@${PY_FLAVOR} \
 	${PYTHON_PKGNAMEPREFIX}requests>0:www/py-requests@${PY_FLAVOR} \
-	${PYTHON_PKGNAMEPREFIX}ruamel.yaml>0:textproc/py-ruamel.yaml@${PY_FLAVOR} \
-	${PYTHON_PKGNAMEPREFIX}ruamel.yaml.clib>0:textproc/py-ruamel.yaml.clib@${PY_FLAVOR} \
+	${PYTHON_PKGNAMEPREFIX}ruamel.yaml>0:devel/py-ruamel.yaml@${PY_FLAVOR} \
+	${PYTHON_PKGNAMEPREFIX}ruamel.yaml.clib>0:devel/py-ruamel.yaml.clib@${PY_FLAVOR} \
 	${PYTHON_PKGNAMEPREFIX}python-slugify>0:textproc/py-python-slugify@${PY_FLAVOR} \
 	${PYTHON_PKGNAMEPREFIX}voluptuous>0:devel/py-voluptuous@${PY_FLAVOR} \
 	${PYTHON_PKGNAMEPREFIX}voluptuous-serialize>0:devel/py-voluptuous-serialize@${PY_FLAVOR} \
