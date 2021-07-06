@@ -37,6 +37,8 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}aiohttp>0:www/py-aiohttp@${PY_FLAVOR} \
 	${PYTHON_PKGNAMEPREFIX}yaml>0:devel/py-yaml@${PY_FLAVOR} \
 	${PYTHON_PKGNAMEPREFIX}awesomeversion>0:devel/py-awesomeversion@${PY_FLAVOR} \
 	${PYTHON_PKGNAMEPREFIX}backports.zoneinfo>0:devel/py-backports.zoneinfo@${PY_FLAVOR} \
+	${PYTHON_PKGNAMEPREFIX}httpx>0:www/py-httpx@${PY_FLAVOR} \
+	${PYTHON_PKGNAMEPREFIX}markupsafe>0:textproc/py-markupsafe@${PY_FLAVOR}
 
 USES=		python:3.7+
 USE_PYTHON=	autoplist distutils
